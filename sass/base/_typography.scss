@@ -27,3 +27,31 @@ h5{
 h6{
   font-size: .44rem;
 }
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $secondary-font;
+}
+
+
+p{
+  font-family: $primary-font;
+}
+
+a:hover {
+  color: $lightgrey;
+}
+
+.main h1{
+  color: $white;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.main__article{
+  text-align: center;
+  color: $black;
+}
+
+.aside__unorderedlist__item{
+list-style-type: none;
+}

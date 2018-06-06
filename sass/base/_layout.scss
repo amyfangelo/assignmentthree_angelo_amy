@@ -46,3 +46,24 @@ background-color: $lightblue;
 .footer{
   text-align:center;
 }
+
+@media (min-width: 675px){
+body{
+  background-color: yellow;
+
+}
+}
+
+@media (min-width: 999px){
+  body{
+    background-color: green;
+
+  }
+}
+
+@media (min-width: 1280px){
+  body{
+    background-color: blue;
+
+  }
+}
